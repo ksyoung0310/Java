@@ -26,6 +26,7 @@ public class EX11 {
 				String[] arrayStr2 = {"A", "B", "C"};
 				for (int i = 0; i < arrayStr2.length; i++) {
 					System.out.println(arrayStr2[i]);
-	}
+				}
 
+	}
 }
