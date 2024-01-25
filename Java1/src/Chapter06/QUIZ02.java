@@ -18,6 +18,7 @@ public class QUIZ02 {
 				System.out.print(j + "X" + i + "=" + i*j + "\t");
 			}
 			System.out.println();
-	}
+		}
 
+	}
 }
