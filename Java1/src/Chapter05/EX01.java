@@ -1,20 +1,18 @@
 package Chapter05;
-import java.util.Scanner;
 
 public class EX01 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.print("Hello, Java");
-Scanner input = new Scanner(System.in);
-		
-		System.out.print("수 입력: ");
-		int num = input.nextInt(); 
-		
-		if (num == 1) {
-			System.out.println("1입니다.");
+		// 문자열 10번 출력
+		for (int i = 0; i < 10; i++) {
+			System.out.println("Java");
 		}
-		input.close();
+		
+		// 숫자 10까지 출력
+		for (int i = 0; i < 11; i++) {
+			System.out.println(i);
+		}
 	}
 
 }
