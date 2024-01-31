@@ -13,7 +13,7 @@ public class QUIZ04 {
         } 
 		else if (year % 4 == 0 && year % 100 == 0) {
             System.out.println(year + "은 윤년이 아닙니다.");
-        } 
+        }
 		else {
             System.out.println(year + "은 윤년이 아닙니다.");
         }
